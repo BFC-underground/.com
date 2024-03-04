@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>01_Wiederholung</title>
+    <meta charset="utf-8">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background-color: rgb(50, 50, 50);
+        }
+        #header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 150px;
+            background-color: grey;
+            text-align: center;
+            line-height: 150px;
+            font-size: 36px;
+        }
+        #header h1{
+            color: white;
+            font-size: 70px;
+            text-align: center;
+        }
+        #subheader {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 180px;
+            margin-right: 10px;
+            padding: 20px;
+            color: cadetblue;
+        }
+        #subheader h3 {
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            flex: 1;
+            margin: 0 10px;
+            color: rgb(0, 136, 173);
+            font-size: larger;
+        }
+        #subheader h4 {
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            flex: 1;
+            margin: 0 10px;
+            color: cadetblue;
+            font-size: larger;
+        }
+        #spitzname h1{
+            color: white;
+            font-size: 16px;
+            text-indent: 110px;
+        }
+        #liste ol{
+            color: white;
+            font-size: 16px;
+            padding-left: 570px;
+            margin-top: -40px;
+        }
+        .lied{
+            color: white;
+            font-size: 16px;
+            padding-left: 910px;
+        }
+        #fakten h1{
+            color: white;
+            font-size: 16px;
+            text-indent: 1260px;
+            margin-top: -45px
+        }
+        #lieblingsfotos h1{
+            color: cadetblue;
+            font-size: 24px;
+            text-align: center;
+            padding-top: 70px;
+        }
+        #lieblingsbilder {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #lieblingsbilder img{
+            padding-left: 10px;
+        }
+        #stundenplan h1{
+            color: rgb(0, 136, 173);
+            font-size: 20px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        table {
+            width: 100%;
+            max-width: 400px;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ffffff;
+            color: white;
+        }
+        #schluss h1{
+            color: cadetblue;
+            font-size: 20px;
+            text-align: center;
+        }
+        #schluss ol{
+            color: white;
+            font-size: 16px;
+            text-indent: 650px;
+            padding-top: 20px;
+            list-style: disc;
+        }
+        #schluss1 ol{
+            color: white;
+            font-size: 16px;
+            text-indent: 750px;
+            margin-top: -76px;
+            list-style: disc;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Abed Badran</h1>
+    </div>
+    <div id="subheader">
+        <h4>Spitzname</h4>
+        <h3>Lieblingsfächer</h3>
+        <h4>Mein Lieblingslied</h4>
+        <h3>Fakten über mich</h3>
+    </div>
+    <div id="spitzname"><h1>Mein Spitzname ist Abudi</h1></div>
+    <div id="lied"><a href="https://www.youtube.com/watch?v=rRFsZ1bifm0" class="lied" id="lied" target="_blank">I see red</a></div>
+    <div id="liste">
+        <ol>
+            <li>IM</li>
+            <li>ANP</li>
+            <li>Sport</li>
+        </ol>
+    </div>
+    <div id="fakten">
+        <h1>Ich mag Katzen</h1>
+    </div>
+    <div id="lieblingsfotos">
+        <h1>Meine lieblingsfotos</h1>
+    </div>
+    <div id="lieblingsbilder">
+        <img src="Ich.jpg" alt="Ich und kevin" width="100px" height="80px">
+        <img src="spielen.jpg" alt="Ich und kevin" width="100px" height="80px">
+        <img src="katze.jpg" alt="Ich und kevin" width="100px" height="80px">
+    </div>
+    <div id="stundenplan">
+        <h1>Mein perfektes Stundenplan</h1>
+    </div>
+    <table>
+        <thead>
+          <tr>
+            <th>Montag</th>
+            <th>Dienstag</th>
+            <th>Mittwoch</th>
+            <th>Donnerstag</th>
+            <th>Freitag</th>
+            <th>Samstag</th>
+            <th>Sonntag</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid #ffffff;">Frei</td>
+            <td style="border: 1px solid #ffffff;">Frei</td>
+            <td style="border: 1px solid #ffffff;">Frei</td>
+            <td style="border: 1px solid #ffffff;">Frei</td>
+            <td style="border: 1px solid #ffffff;">Frei</td>
+            <td style="border: 1px solid #ffffff;">Frei</td>
+            <td style="border: 1px solid #ffffff;">Frei</td>
+          </tr>
+        </tbody>
+      </table>
+    <div id="schluss">
+        <h1>Mitschüler mit den ich gerne zusammen arbeite</h1>
+        <ol>
+            <il>Melik</il>
+            <li>Artur</li>
+            <li>Aznavur</li>
+        </ol>
+        <div id="schluss1">
+            <ol>
+                <li>Peter</li>
+                <li>Kevin</li>
+                <li>Kerim</li>
+            </ol>
+    </div>
+</body>
+</html>
